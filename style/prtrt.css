@@ -1,0 +1,10 @@
+.prtrt {
+    background-image: url(../img/prtrt/Image.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 776px;
+    margin-bottom: 150px;
+
+
+}

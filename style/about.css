@@ -1,0 +1,40 @@
+.about .container{
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 50px;
+
+    gap: 50px;
+}
+
+.section {}
+
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    color: rgba(252, 249, 249, 0.4);
+    width: 536px;
+}
+
+.about-img {
+    
+    border-radius: 4px;
+}

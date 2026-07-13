@@ -1,0 +1,69 @@
+body {
+    font-family: "Manrope", sans-serif;
+    color: #fcf9f9;
+    background-color: #1C2225;
+    margin: 0;
+    /* убирает дефолтный отступ браузера */
+}
+
+a {
+    text-decoration: none;
+    /* убирает подчёркивание у всех ссылок */
+    color: currentColor;
+    /* ссылки наследуют цвет родителя */
+}
+
+
+ul, ol {
+    list-style: none;
+    /* убирает точки у всех списков */
+    margin: 0;
+    /* убирает дефолтный отступ браузера */
+    padding: 0;
+    /* убирает дефолтный отступ браузера */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    /* убирает дефолтные отступы у заголовков и параграфов */
+}
+
+address {
+    font-style: normal;
+    /* убирает курсив у тега address — браузер по умолчанию делает его курсивом */
+}
+
+img {
+    display: block;
+    /* убирает лишний отступ снизу у картинок */
+}
+
+.container {
+    max-width: 1280px;
+    /* максимальная ширина контента по макету */
+    margin: 0 auto;
+    /* центрирует контейнер на странице */
+    padding: 0 15px;
+    /* отступы по бокам чтобы контент не прилипал к краю */
+}
+.section {
+    padding-bottom: 150px;
+}
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+    max-width: 100%;
+    /* картинки не вылезают за родителя */
+}
+.title-accent {
+    color: #ecd979;
+}
+

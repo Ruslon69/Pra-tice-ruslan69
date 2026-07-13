@@ -1,0 +1,51 @@
+.order .section {
+    
+}
+
+.order .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.order-img {
+    border-radius: 4px;
+    padding-left: 50px;
+}
+
+.order-content {
+}
+
+.order-title {
+
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.31;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;;
+}
+
+.title-accent {}
+
+.order-form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-input {}
+
+.order-textarea {}
+
+.order-button {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+        border-radius: 15px;
+        padding: 14px 39px;
+        width: 168px;
+        height: 50px;
+}

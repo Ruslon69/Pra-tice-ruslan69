@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     margin: 0 50px 0 50px;
-
     gap: 50px;
+    position: relative;
 }
 
 .section {}
@@ -38,3 +38,12 @@
     
     border-radius: 4px;
 }
+
+.about-wrapper {
+    display: flex;
+        position: absolute;
+        bottom: -80px;
+        left: 845px;
+}
+
+.about-logo {}

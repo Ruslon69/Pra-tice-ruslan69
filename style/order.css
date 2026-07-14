@@ -1,11 +1,15 @@
 .order .section {
     
+    
 }
 
 .order .container {
     display: flex;
     align-items: center;
     gap: 50px;
+    position: relative;
+    width: 1280px;
+        height: 640px;
 }
 
 .order-img {
@@ -17,12 +21,11 @@
 }
 
 .order-title {
-
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 1.31;
-    letter-spacing: -0.03em;
-    color: #fcf9f9;;
+     font-weight: 500;
+     font-size: 44px;
+     line-height: 1.31;
+     letter-spacing: -0.03em;
+     color: #fcf9f9;;
 }
 
 .title-accent {}
@@ -34,9 +37,70 @@
     gap: 20px;
 }
 
-.order-input {}
+.input-container {
+    display: flex;
+        align-items: flex-start;
+        
+        flex-direction: column;
+        gap: 12px;
+        width: 508px;
+            height: 50px;
+}
 
-.order-textarea {}
+.input-wrapper {
+    display: flex;
+        align-items: flex-start;
+        
+        flex-direction: row;
+        gap: 8px;
+        border: 1px solid rgba(252, 249, 249, 0.1);
+            border-radius: 15px;
+            padding: 14px 16px;
+            width: 508px;
+            height: 50px;
+}
+
+
+
+.textarea-container {
+    display: flex;
+        align-items: flex-start;
+        
+        flex-direction: column;
+        gap: 6px;
+        width: 508px;
+            height: 196px;
+}
+
+.textarea-wrapper {
+    display: flex;
+        align-items: flex-start;
+       
+        flex-direction: column;
+        gap: 12px;
+        width: 508px;
+            height: 196px;
+}
+
+.textarea-wrapper-zone {
+    display: flex;
+        align-items: flex-start;
+        
+        flex-direction: row;
+        gap: 8px;
+        border: 1px solid rgba(252, 249, 249, 0.1);
+            border-radius: 8px;
+            padding: 14px 16px;
+            width: 508px;
+            height: 196px;
+            font-weight: 400;
+                font-size: 16px;
+                letter-spacing: -0.02em;
+                color: rgba(252, 249, 249, 0.5);
+}
+
+
+
 
 .order-button {
     display: flex;
@@ -48,4 +112,38 @@
         padding: 14px 39px;
         width: 168px;
         height: 50px;
+        margin-top: 40px;
+        background: transparent;
+        font-weight: 600;
+            font-size: 16px;
+            letter-spacing: -0.04em;
+            text-transform: uppercase;
+            color: #fcf9f9;
+}
+
+.order-button:hover,
+.order-button:focus {
+    border: 1px solid #ecd979;
+        border-radius: 15px;
+}
+.order-wrapper {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.order-unkolor-logo {}
+
+
+
+.order-input,
+.order-textarea {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(252, 249, 249, 0.5);
+    font-family: inherit;
+    font-size: 16px;
+    width: 100%;
 }

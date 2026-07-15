@@ -37,8 +37,12 @@
     font-size: 14px;
     line-height: 1.28;
     text-transform: uppercase;
-    color: #fcf9f9;
-    
+    color: #fcf9f9; 
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+        color: #ecd979;
 }
 .container-adress {
     display: flex;
